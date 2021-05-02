@@ -1,0 +1,141 @@
+*{
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #000;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    position: static;
+}
+
+.nome{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.nome h1{
+    margin-left: 70px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 106);
+}
+
+.menu-links{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-links a{
+    font-weight: 600;
+    padding: 0 10px 5px 10px;
+    margin:0 15px;
+    height: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-links a:hover{
+    color: rgb(255, 255, 106);
+    border-bottom: 3px solid rgb(255, 255, 106);
+}
+
+section{
+    display: flex;
+}
+
+.center{
+    height: 100%;
+    display: inline-block;
+    width: 41%;
+    padding: 100px 0px 0px 70px;
+}
+
+.p1{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 106);
+    margin-bottom: 20px;
+}
+
+.nome-center{
+    line-height: 1.4;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.nome-center span{
+    letter-spacing: 2px;
+    color: rgb(255, 255, 106);
+}
+
+.info{
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.buttons{
+    display: inline;
+}
+
+.buttons a{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 13px 16px;
+    border-radius: 25px;
+    
+}
+
+.buttons a:hover{
+    background: rgb(201, 201, 5);
+    color: #000;
+    transition-duration: 0.5s;
+}
+
+.imagem{
+    display: flex;
+    width: 59%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem img{
+    border: 5px solid #000;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 30% 70% 30% 70%;
+}
+
+.vazio{
+    border: 1px solid #000;
+    width: 450px;
+    height: 400px;
+    background: rgb(201, 201, 5);
+    border-radius: 70% 30% 70% 30%;
+}
